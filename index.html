@@ -86,5 +86,22 @@
 
         <footer>Ego EMBi &copy;</footer>
     </div>
+
+    <script>
+        // Check if page view count exists in localStorage
+        if (localStorage.getItem('pageViews')) {
+            // Increment page view count if it exists
+            let pageViews = parseInt(localStorage.getItem('pageViews'));
+            pageViews++;
+            localStorage.setItem('pageViews', pageViews);
+        } else {
+            // Initialize page view count if it doesn't exist
+            localStorage.setItem('pageViews', 1);
+        }
+
+        // Display page view count on the page
+        let pageViews = parseInt(localStorage.getItem('pageViews'));
+        document.write('<p>Page views: ' + pageViews + '</p>');
+    </script>
 </body>
 </html>
