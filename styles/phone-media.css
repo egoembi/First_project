@@ -72,6 +72,8 @@
     }
     .biography table{
         width: 100%;
+        font-size: 0.75rem;
+        margin-bottom: 5vw;
     }
     image{
         width: 50%;
@@ -111,6 +113,7 @@
         width: 100%;
         background: var(--scndry-bg-clr);
         margin-top: -2%;
+        font-size: 1rem;
     }
     .vinetka h2{
         font-size: 1.5em;
