@@ -6,6 +6,15 @@
     --btn-clr: #800000;
     --ftr-clr: #283618;
 }
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
 @media (width < 600px){
     .container{
         width: 100%;
@@ -21,6 +30,10 @@
         justify-content: space-evenly;
     }
     .navigator{
+        color: var(--cntrst-clr);
+        font-weight: 800;
+    }
+    .navigator a{
         color: var(--cntrst-clr);
     }
     .wrapper{
