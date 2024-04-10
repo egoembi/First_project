@@ -2,6 +2,7 @@
     --bg-clr: linear-gradient(60deg, #4169e1, #3f4aae);
     --scndry-bg-clr: #333333aa;
     --cntrst-clr: #ffd700;
+    --scrl: linear-gradient(45deg, #ffd700, #995400);
     --clr: #f0efeb;
     --btn-clr: #800000;
     --ftr-clr: #283618;
@@ -14,6 +15,17 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    background: var(--bg-clr);
+}
+::-webkit-scrollbar-track{
+    background: var(--scndry-bg-clr);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--scrl);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 @media (width < 600px){
     .container{
