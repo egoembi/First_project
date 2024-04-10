@@ -92,4 +92,27 @@
         bottom: 0;
         position: fixed;
     }
+
+
+
+    .vinetka{
+        width: 100%;
+    }
+    .vinetka h2{
+        font-size: 1.5em;
+        color: var(--cntrst-clr);
+        text-align: center;
+    }
+    .vinetka table{
+        width: 100%;
+    }
+    .vinetka table{
+        margin-bottom: 100px;
+    }
+    .vinetka table tr td{
+        width: 50%;
+    }
+    .vinetka table tr td img{
+        width: 100%;
+    }
 }
