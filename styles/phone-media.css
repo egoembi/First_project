@@ -55,10 +55,10 @@
         width: 225px;
     }
     .scnd-cntnt{
-
+        width: 100%;
     }
     .coverage{
-
+        width: 100%;
     }
     .coverage h1{
         color: var(--cntrst-clr);
