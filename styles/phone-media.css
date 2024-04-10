@@ -39,6 +39,7 @@
     }
     .biography h2{
         width: 100%;
+        text-align: center;
         text-transform: uppercase;
         font-weight: 600;
         font-size: 1rem;
@@ -53,6 +54,23 @@
     #my-pic{
         width: 250px;
     }
+    .scnd-cntnt{
+
+    }
+    .coverage{
+
+    }
+    .coverage h1{
+        color: var(--cntrst-clr);
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .coverage table{
+        color: var(--clr);
+    }
+
     footer{
         width: 100%;
         text-align: center;
