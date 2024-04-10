@@ -109,6 +109,9 @@
 
     .vinetka{
         width: 100%;
+        background: var(--scndry-bg-clr);
+        color: var(--clr);
+        margin-top: -2%;
     }
     .vinetka h2{
         font-size: 1.5em;
@@ -117,8 +120,6 @@
     }
     .vinetka table{
         width: 100%;
-    }
-    .vinetka table{
         margin-bottom: 100px;
     }
     .vinetka table tr td{
