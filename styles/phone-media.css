@@ -1,0 +1,64 @@
+:root{
+    --bg-clr: linear-gradient(60deg, #4169e1, #3f4aae);
+    --scndry-bg-clr: #333333aa;
+    --cntrst-clr: #ffd700;
+    --clr: #f0efeb;
+    --btn-clr: #800000;
+    --ftr-clr: #283618;
+}
+@media (width < 600px){
+    .container{
+        width: 100%;
+        min-height: 100vh;
+        background: var(--bg-clr);
+    }
+    header{
+        width: 100%;
+        background: var(--scndry-bg-clr);
+        display: flex;
+        padding: 1%;
+        border-bottom: #ffd700 2px solid;
+        justify-content: space-evenly;
+    }
+    .navigator{
+        color: var(--cntrst-clr);
+    }
+    .wrapper{
+        width: 100%;
+        padding-top: 2%;
+        background: var(--scndry-bg-clr);
+    }
+    .frst-cntnt{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .biography{
+        width: 50%;
+        color: var(--clr);
+    }
+    .biography h2{
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        color: var(--cntrst-clr);
+    }
+    .biography table{
+        width: 100%;
+    }
+    image{
+        width: 50%;
+    }
+    #my-pic{
+        width: 250px;
+    }
+    footer{
+        width: 100%;
+        text-align: center;
+        color: var(--clr);
+        background: var(--ftr-clr);
+        bottom: 0;
+        position: fixed;
+    }
+}
