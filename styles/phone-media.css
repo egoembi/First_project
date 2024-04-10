@@ -33,7 +33,7 @@
         color: var(--cntrst-clr);
         font-weight: 800;
     }
-    .navigator a{
+    a{
         color: var(--cntrst-clr);
     }
     .wrapper{
